@@ -1,0 +1,9 @@
+{% extends 'main.html' %} # migrates everything from the main template # now I
+want to have content {% block content %}
+<div>
+  <form method="POST" action="">
+    {% csrf_token %} {{form.as_p}}
+    <input type="submit" value="submit" />
+  </form>
+</div>
+{% endblock content %}

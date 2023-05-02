@@ -1,0 +1,11 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "workbench.preferredDarkColorTheme": "Andromeda",
+  "workbench.preferredHighContrastColorTheme": "Andromeda",
+  "workbench.preferredHighContrastLightColorTheme": "Andromeda",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "python.formatting.provider": "none"
+}
